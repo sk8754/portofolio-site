@@ -24,6 +24,7 @@ import photo10 from "@/public/imgs/アパレル.png";
 import photo11 from "@/public/imgs/バイク旅京都2.png";
 import photo12 from "@/public/imgs/プログラマ.png";
 import photo13 from "@/public/imgs/ecサイト.png";
+import photo14 from "@/public/imgs/京都.png";
 import Image from "next/image";
 import ContactForm from "./ContactForm";
 
@@ -331,13 +332,11 @@ export function Component() {
             <Card>
               <CardHeader>
                 <CardTitle>Youtubeサムネイル 旅系</CardTitle>
-                <CardDescription>
-                  北海道旅行をする女性を題材にしました。テキストの傾きと配置を敢えてアンバランスにしました。
-                </CardDescription>
+                <CardDescription>。 京都旅行を題材にしました。</CardDescription>
               </CardHeader>
               <CardContent>
                 <Image
-                  src={photo06}
+                  src={photo14}
                   width="400"
                   height="225"
                   alt="Project 2"
