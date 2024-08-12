@@ -32,7 +32,7 @@ export function Component() {
     <div className="flex flex-col min-h-screen">
       <header className="bg-primary text-primary-foreground py-4 px-6 flex justify-between items-center">
         <Link href="#" className="text-xl font-bold" prefetch={false}>
-          sk8754's
+          sk8754&apos;s
         </Link>
         <nav className="hidden md:flex gap-6">
           <Link
@@ -136,7 +136,7 @@ export function Component() {
                 <CardDescription>作成中</CardDescription>
               </CardHeader>
               <CardContent>
-                <img
+                <Image
                   src="/placeholder.svg"
                   width="400"
                   height="225"
@@ -161,7 +161,7 @@ export function Component() {
                 <CardDescription>作成中</CardDescription>
               </CardHeader>
               <CardContent>
-                <img
+                <Image
                   src="/placeholder.svg"
                   width="400"
                   height="225"
@@ -421,7 +421,7 @@ export function Component() {
       </main>
       <footer className="bg-muted text-muted-foreground py-6 px-6 text-sm">
         <div className="container mx-auto flex justify-between items-center">
-          <p>&copy; 2024 sk8754's All rights reserved.</p>
+          <p>&copy; 2024 sk8754&apos;s All rights reserved.</p>
           <nav className="flex gap-4">
             <Link
               href="#"
