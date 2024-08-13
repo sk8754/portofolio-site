@@ -148,8 +148,7 @@ export function Component() {
               <CardHeader>
                 <CardTitle>LINE風リアルタイムチャットアプリ</CardTitle>
                 <CardDescription>
-                  フロントエンドにNext.jsを採用、Laravel
-                  Reverbを使って認証制のリアルタイムチャットアプリを開発中です。
+                  フロントエンドにNext.js、バックエンド開発にsupabaseを採用。LINEの様なチャットアプリを制作中です。
                 </CardDescription>
               </CardHeader>
               <CardContent>
