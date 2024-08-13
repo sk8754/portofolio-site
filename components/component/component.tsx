@@ -108,7 +108,7 @@ export function Component() {
                 <CardTitle>Amazon風ECサイト</CardTitle>
                 <CardDescription>
                   認証機能、商品表示、カート機能の一部まで実装済み。システム開発に注力しているためにUI設計
-                  が少し手抜きです。現在全体の60%程完成済みです。
+                  が少しおざなりです。現在全体の60%程完成済みです。
                 </CardDescription>
               </CardHeader>
               <CardContent>
