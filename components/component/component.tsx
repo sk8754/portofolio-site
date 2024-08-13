@@ -1,5 +1,5 @@
+"use client";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardHeader,
@@ -29,40 +29,50 @@ import Image from "next/image";
 import ContactForm from "./ContactForm";
 
 export function Component() {
+  const handleMenu = () => {
+    const nav = document.querySelector("nav");
+    nav?.classList.toggle("invisible");
+    nav?.classList.toggle("opacity-0");
+
+    const target = document.querySelector("#target");
+    target?.classList.toggle("translate-x-[-50px]");
+  };
   return (
     <div className="flex flex-col min-h-screen">
       <header className="bg-primary text-primary-foreground py-4 px-6 flex justify-between items-center">
         <Link href="#" className="text-xl font-bold" prefetch={false}>
           sk8754&apos;s
         </Link>
-        <nav className="hidden md:flex gap-6">
-          <Link
-            href="#"
-            className="hover:text-accent transition-colors"
-            prefetch={false}
+        <nav className="invisible sm:invisible opacity-0  w-[100vw] h-screen duration-300 fixed top-0 ">
+          <div
+            id="target"
+            className="flex flex-col text-[white] font-bold gap-6 fixed right-0 top-[20px]  duration-300 z-30"
           >
-            design
-          </Link>
-          <Link
-            href="#"
-            className="hover:text-accent transition-colors"
-            prefetch={false}
-          >
-            program
-          </Link>
-          <Link
-            href="#"
-            className="hover:text-accent transition-colors"
-            prefetch={false}
-          >
-            Contact
-          </Link>
+            <Link href="#" prefetch={false}>
+              design
+            </Link>
+            <Link href="#" prefetch={false}>
+              program
+            </Link>
+            <Link href="#" prefetch={false}>
+              Contact
+            </Link>
+          </div>
+
+          {/* オーバーレイ */}
+          <div className="w-full h-screen opacity-90 bg-[#1c1cba]"></div>
         </nav>
-        <Button variant="outline" size="icon" className="md:hidden">
-          <MenuIcon className="h-6 w-6" />
-          <span className="sr-only">Toggle navigation</span>
-        </Button>
+
+        <button
+          onClick={handleMenu}
+          className="sm:hidden fixed top-[15px] right-[5px] w-[30px] h-[30px] bg-[white] z-50"
+        >
+          <span className="hamburger-bar"></span>
+          <span className="hamburger-bar"></span>
+          <span className="hamburger-bar"></span>
+        </button>
       </header>
+
       <main className="flex-1 py-12 px-6 md:px-12 lg:px-20">
         <section className="grid md:grid-cols-2 gap-12 sm:items-center">
           <div className="flex justify-center">

@@ -67,3 +67,27 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* ハンバーガーメニュー */
+.hamburger-bar {
+  display: block;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  right: 0;
+  background: #000;
+}
+
+.hamburger-bar:nth-child(1) {
+  top: 0;
+}
+
+.hamburger-bar:nth-child(2) {
+  top: 50%;
+  translate: 0 -50%;
+}
+
+.hamburger-bar:nth-child(3) {
+  top: 100%;
+  translate: 0 -100%;
+}
