@@ -117,8 +117,11 @@ export function Component() {
               <CardHeader>
                 <CardTitle>Amazon風ECサイト</CardTitle>
                 <CardDescription>
-                  認証機能、商品表示、カート機能の一部まで実装済み。システム開発に注力しているためにUI設計
-                  が少しおざなりです。現在全体の60%程完成済みです。
+                  フロントエンドにNext.jsを採用、バックエンド開発にSupabaseを採用。認証機能、商品表示、カート機能の一部まで実装済み。システム開発に注力しているためにUI設計
+                  が少しおざなりです。現在全体の60%程完成済みです。ゲスト用のアカウント情報にてログインできます↓
+                  <br />
+                  メールアドレス: test@test.com <br />
+                  パスワード: password
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -143,8 +146,11 @@ export function Component() {
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>Project 2</CardTitle>
-                <CardDescription>作成中</CardDescription>
+                <CardTitle>LINE風リアルタイムチャットアプリ</CardTitle>
+                <CardDescription>
+                  フロントエンドにNext.jsを採用、Laravel
+                  Reverbを使って認証制のリアルタイムチャットアプリを開発中です。
+                </CardDescription>
               </CardHeader>
               <CardContent>
                 <Image
