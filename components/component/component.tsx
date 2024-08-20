@@ -25,6 +25,7 @@ import photo11 from "@/public/imgs/バイク旅京都2.png";
 import photo12 from "@/public/imgs/プログラマ.png";
 import photo13 from "@/public/imgs/ecサイト.png";
 import photo14 from "@/public/imgs/京都.png";
+import photo15 from "@/public/imgs/リアルタイムチャット.png";
 import Image from "next/image";
 import ContactForm from "./ContactForm";
 
@@ -148,12 +149,25 @@ export function Component() {
               <CardHeader>
                 <CardTitle>LINE風リアルタイムチャットアプリ</CardTitle>
                 <CardDescription>
-                  フロントエンドにNext.js、バックエンド開発にsupabaseを採用。LINEの様なチャットアプリを制作中です。
+                  フロントエンドにNext.js、バックエンド開発にsupabaseを採用。LINEの様なチャットアプリを制作中です。リアルタイムチャット機能まで実装済み。メッセージの表示位置の調整、既読機能などを実装中です。
+                  <br />
+                  現在はゲストアカウントのみ使用可能です。
+                  <br />
+                  ↓ゲストアカウントログイン情報です。
+                  <br />
+                  メールアドレス:user2@example.com
+                  <br />
+                  user3@example.com
+                  <br />
+                  user4@example.com
+                  <br />
+                  user5@example.com <br />
+                  パスワード:password
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <Image
-                  src="/placeholder.svg"
+                  src={photo15}
                   width="400"
                   height="225"
                   alt="Project 2"
@@ -163,7 +177,7 @@ export function Component() {
               </CardContent>
               <CardFooter>
                 <Link
-                  href="#"
+                  href="https://realtimechat-app-pi.vercel.app/"
                   className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                   prefetch={false}
                 >
