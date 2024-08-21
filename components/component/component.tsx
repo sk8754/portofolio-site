@@ -135,15 +135,24 @@ export function Component() {
                   style={{ aspectRatio: "400/225", objectFit: "cover" }}
                 />
               </CardContent>
-              <CardFooter>
+
+              <div className="text-center">
                 <Link
                   href="https://amazon-like-ec.vercel.app/"
-                  className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                  className="mb-[1rem] inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                   prefetch={false}
                 >
                   View Project
                 </Link>
-              </CardFooter>
+                <br />
+                <Link
+                  href="https://github.com/sk8754/amazon-like-EC"
+                  className="inline-flex items-center justify-center rounded-md bg-[#ff3333] px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#ff3333]/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                  prefetch={false}
+                >
+                  ソースコードはこちら
+                </Link>
+              </div>
             </Card>
             <Card>
               <CardHeader>
@@ -175,15 +184,23 @@ export function Component() {
                   style={{ aspectRatio: "400/225", objectFit: "cover" }}
                 />
               </CardContent>
-              <CardFooter>
+              <div className="text-center">
                 <Link
                   href="https://realtimechat-app-pi.vercel.app/"
-                  className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                  className="mb-[1rem] inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                   prefetch={false}
                 >
                   View Project
                 </Link>
-              </CardFooter>
+                <br />
+                <Link
+                  href="https://github.com/sk8754/Realtimechat-app"
+                  className="inline-flex items-center justify-center rounded-md bg-[#ff3333] px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#ff3333]/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                  prefetch={false}
+                >
+                  ソースコードはこちら
+                </Link>
+              </div>
             </Card>
             <Card>
               <CardHeader>
@@ -200,15 +217,23 @@ export function Component() {
                   style={{ aspectRatio: "400/225", objectFit: "cover" }}
                 />
               </CardContent>
-              <CardFooter>
+              <div className="text-center">
                 <Link
-                  href="#"
-                  className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                  href=""
+                  className="mb-[1rem] inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                   prefetch={false}
                 >
                   View Project
                 </Link>
-              </CardFooter>
+                <br />
+                <Link
+                  href=""
+                  className="inline-flex items-center justify-center rounded-md bg-[#ff3333] px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#ff3333]/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                  prefetch={false}
+                >
+                  ソースコードはこちら
+                </Link>
+              </div>
             </Card>
           </div>
 
