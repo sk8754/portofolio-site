@@ -26,6 +26,7 @@ import photo12 from "@/public/imgs/プログラマ.png";
 import photo13 from "@/public/imgs/ecサイト.png";
 import photo14 from "@/public/imgs/京都.png";
 import photo15 from "@/public/imgs/リアルタイムチャット.png";
+import photo16 from "@/public/imgs/twitter.png";
 import Image from "next/image";
 import ContactForm from "./ContactForm";
 
@@ -147,7 +148,7 @@ export function Component() {
                 <br />
                 <Link
                   href="https://github.com/sk8754/amazon-like-EC"
-                  className="inline-flex items-center justify-center rounded-md bg-[#ff3333] px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#ff3333]/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                  className="inline-flex items-center justify-center rounded-md bg-[#ff3333] px-4 py-2 mb-[1rem] text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#ff3333]/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                   prefetch={false}
                 >
                   ソースコードはこちら
@@ -195,7 +196,7 @@ export function Component() {
                 <br />
                 <Link
                   href="https://github.com/sk8754/Realtimechat-app"
-                  className="inline-flex items-center justify-center rounded-md bg-[#ff3333] px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#ff3333]/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                  className="inline-flex items-center justify-center rounded-md bg-[#ff3333] px-4 py-2 mb-[1rem] text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#ff3333]/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                   prefetch={false}
                 >
                   ソースコードはこちら
@@ -204,12 +205,16 @@ export function Component() {
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>Project 3</CardTitle>
-                <CardDescription>作成中</CardDescription>
+                <CardTitle>X風タイムライン</CardTitle>
+                <CardDescription>
+                  Xの様なタイムラインを表示するアプリです。ログインしているユーザー全てが閲覧できる仕様です。メールアドレス認証が完了したユーザーのみが利用可能となります。
+                  <br />
+                  現状では削除機能を実装していません。postをクリックするとつぶやきが投稿される仕様になっています。
+                </CardDescription>
               </CardHeader>
               <CardContent>
                 <Image
-                  src="/placeholder.svg"
+                  src={photo16}
                   width="400"
                   height="225"
                   alt="Project 3"
@@ -219,7 +224,7 @@ export function Component() {
               </CardContent>
               <div className="text-center">
                 <Link
-                  href=""
+                  href="https://twitter-likes-app.vercel.app/"
                   className="mb-[1rem] inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                   prefetch={false}
                 >
@@ -227,8 +232,8 @@ export function Component() {
                 </Link>
                 <br />
                 <Link
-                  href=""
-                  className="inline-flex items-center justify-center rounded-md bg-[#ff3333] px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#ff3333]/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                  href="https://github.com/sk8754/twitter-likes-app"
+                  className="inline-flex items-center justify-center rounded-md bg-[#ff3333] px-4 py-2 mb-[1rem] text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-[#ff3333]/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                   prefetch={false}
                 >
                   ソースコードはこちら
