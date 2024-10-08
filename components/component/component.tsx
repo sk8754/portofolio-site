@@ -375,7 +375,7 @@ export function Component() {
             <Card>
               <CardHeader>
                 <CardTitle>Youtubeサムネイル 旅系</CardTitle>
-                <CardDescription>。 京都旅行を題材にしました。</CardDescription>
+                <CardDescription>京都旅行を題材にしました。</CardDescription>
               </CardHeader>
               <CardContent>
                 <Image
