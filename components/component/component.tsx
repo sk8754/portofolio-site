@@ -143,7 +143,7 @@ export function Component() {
               <CardHeader>
                 <CardTitle>LINE風リアルタイムチャットアプリ</CardTitle>
                 <CardDescription>
-                  フロントエンドにNext.js、バックエンド開発にsupabaseを採用。LINEの様なチャットアプリを制作中です。リアルタイムチャット機能まで実装済み。メッセージの表示位置の調整、既読機能などを実装中です。
+                  フロントエンドにNext.js、バックエンド開発にsupabaseを採用。LINEの様なチャットアプリを制作中です。リアルタイムチャット機能まで実装済み。既読機能などを実装中です。
                   <br />
                   現在はゲストアカウントのみ使用可能です。
                   <br />
