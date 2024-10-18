@@ -431,7 +431,7 @@ export function Component() {
               <CardHeader>
                 <CardTitle>Youtubeサムネイル 切り抜き動画系</CardTitle>
                 <CardDescription>
-                  趣味で大手vtuber事務所の切り抜き動画を作っています。ユーモアのあるデザインを意識して作っています。
+                  趣味で大手Vtuber事務所の切り抜き動画を作っています。ユーモアのあるデザインを意識して作っています。
                 </CardDescription>
               </CardHeader>
               <CardContent>
